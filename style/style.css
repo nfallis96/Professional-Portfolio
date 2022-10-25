@@ -9,7 +9,7 @@
 body {
     background-color: rgb(85, 123, 164);
 }
-
+/* using flex display to position items */
 header {
     background-color: rgb(79, 139, 170);
     color: rgb(184, 182, 169);
@@ -161,7 +161,7 @@ p {
 .contact-link {
     color: darkslategray;
 }
-
+/* using media queries for responsive design */
 @media screen and (max-width: 850px) {
     header {
         flex-direction: column;
